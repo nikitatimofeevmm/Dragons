@@ -1,0 +1,7 @@
+<svg width="100%" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Cartoon dragon</title><desc>Cute cartoon dragon illustration</desc>
+<ellipse cx="200" cy="220" rx="90" ry="110" fill="#C8E6BE" stroke="#5BA850" stroke-width="3"/>
+<circle cx="170" cy="170" r="14" fill="#7BC96F" opacity="0.6"/>
+<circle cx="230" cy="240" r="20" fill="#7BC96F" opacity="0.6"/>
+<circle cx="200" cy="300" r="10" fill="#7BC96F" opacity="0.6"/>
+<path d="M150 150 L165 180 L140 190 L160 220" fill="none" stroke="#5BA850" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

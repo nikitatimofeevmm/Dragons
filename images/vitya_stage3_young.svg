@@ -1,0 +1,21 @@
+<svg width="100%" viewBox="0 0 420 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Cartoon dragon</title><desc>Cute cartoon dragon illustration</desc>
+<ellipse cx="210" cy="270" rx="105" ry="95" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3"/>
+<ellipse cx="210" cy="295" rx="65" ry="55" fill="#C2DDF2"/>
+<circle cx="210" cy="145" r="68" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3"/>
+<path d="M160 90 L172 55 L190 92 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<path d="M260 90 L248 55 L230 92 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="188" cy="140" r="15" fill="white" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="232" cy="140" r="15" fill="white" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="191" cy="143" r="6" fill="#333"/>
+<circle cx="235" cy="143" r="6" fill="#333"/>
+<circle cx="172" cy="162" r="11" fill="#F4A6A6" opacity="0.6"/>
+<circle cx="248" cy="162" r="11" fill="#F4A6A6" opacity="0.6"/>
+<path d="M198 175 Q210 185 222 175" fill="none" stroke="#4A86C8" stroke-width="3" stroke-linecap="round"/>
+<path d="M125 195 Q80 215 105 260 Q80 270 115 305" fill="none" stroke="#4A86C8" stroke-width="3" stroke-linecap="round"/>
+<path d="M295 195 Q340 215 315 260 Q340 270 305 305" fill="none" stroke="#4A86C8" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="130" cy="295" rx="26" ry="48" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" transform="rotate(-18 130 295)"/>
+<ellipse cx="290" cy="295" rx="26" ry="48" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" transform="rotate(18 290 295)"/>
+<path d="M295 345 Q350 365 338 320 Q368 340 350 290" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" stroke-linejoin="round"/>
+<path d="M130 187 L118 170 L148 175 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<path d="M290 187 L302 170 L272 175 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+</svg>

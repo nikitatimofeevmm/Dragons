@@ -1,0 +1,25 @@
+<svg width="100%" viewBox="0 0 500 440" xmlns="http://www.w3.org/2000/svg" role="img"><title>Cartoon dragon</title><desc>Cute cartoon dragon illustration</desc>
+<path d="M160 165 Q50 105 35 230 Q20 340 145 305 Q90 230 160 165Z" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" stroke-linejoin="round"/>
+<path d="M340 165 Q450 105 465 230 Q480 340 355 305 Q410 230 340 165Z" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" stroke-linejoin="round"/>
+<path d="M170 205 L100 210 M170 240 L108 255 M170 275 L120 300" stroke="#4A86C8" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M330 205 L400 210 M330 240 L392 255 M330 275 L380 300" stroke="#4A86C8" stroke-width="2" fill="none" stroke-linecap="round"/>
+<ellipse cx="250" cy="295" rx="105" ry="105" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3"/>
+<ellipse cx="250" cy="325" rx="62" ry="62" fill="#C2DDF2"/>
+<circle cx="250" cy="150" r="72" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3"/>
+<path d="M192 80 L210 35 L235 85 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<path d="M308 80 L290 35 L265 85 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<path d="M220 85 L228 55 L245 87 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<path d="M280 85 L272 55 L255 87 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="226" cy="143" r="16" fill="white" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="274" cy="143" r="16" fill="white" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="230" cy="146" r="6" fill="#333"/>
+<circle cx="278" cy="146" r="6" fill="#333"/>
+<circle cx="208" cy="167" r="12" fill="#F4A6A6" opacity="0.6"/>
+<circle cx="292" cy="167" r="12" fill="#F4A6A6" opacity="0.6"/>
+<path d="M230 185 Q250 203 270 185" fill="none" stroke="#4A86C8" stroke-width="3" stroke-linecap="round"/>
+<path d="M210 190 L200 180 M290 190 L300 180" stroke="#4A86C8" stroke-width="2" fill="none" stroke-linecap="round"/>
+<ellipse cx="155" cy="325" rx="30" ry="55" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" transform="rotate(-15 155 325)"/>
+<ellipse cx="345" cy="325" rx="30" ry="55" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" transform="rotate(15 345 325)"/>
+<path d="M350 385 Q460 420 435 335 Q480 370 455 290" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" stroke-linejoin="round"/>
+<path d="M390 320 L425 300 M395 350 L432 340" stroke="#4A86C8" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

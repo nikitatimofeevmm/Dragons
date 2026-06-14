@@ -1,0 +1,17 @@
+<svg width="100%" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img"><title>Cartoon dragon</title><desc>Cute cartoon dragon illustration</desc>
+<ellipse cx="200" cy="260" rx="95" ry="85" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3"/>
+<ellipse cx="200" cy="280" rx="55" ry="45" fill="#C2DDF2"/>
+<circle cx="200" cy="150" r="70" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3"/>
+<path d="M155 100 L165 70 L180 100 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<path d="M245 100 L235 70 L220 100 Z" fill="#F0D060" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="175" cy="145" r="16" fill="white" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="225" cy="145" r="16" fill="white" stroke="#4A86C8" stroke-width="2"/>
+<circle cx="178" cy="148" r="7" fill="#333"/>
+<circle cx="228" cy="148" r="7" fill="#333"/>
+<circle cx="160" cy="170" r="12" fill="#F4A6A6" opacity="0.6"/>
+<circle cx="240" cy="170" r="12" fill="#F4A6A6" opacity="0.6"/>
+<path d="M185 180 Q200 190 215 180" fill="none" stroke="#4A86C8" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="120" cy="270" rx="22" ry="40" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" transform="rotate(-20 120 270)"/>
+<ellipse cx="280" cy="270" rx="22" ry="40" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" transform="rotate(20 280 270)"/>
+<path d="M275 310 Q320 325 312 285 Q335 300 322 268" fill="#6FA8DC" stroke="#4A86C8" stroke-width="3" stroke-linejoin="round"/>
+</svg>
