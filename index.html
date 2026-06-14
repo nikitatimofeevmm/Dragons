@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Питомцы</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #FFF8E7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .board {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .card {
+    background: #FFFFFF;
+    border-radius: 28px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+    border: 6px solid var(--accent);
+  }
+
+  .card.kostya { --accent: #5BA850; }
+  .card.vitya  { --accent: #4A86C8; }
+
+  .name {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 6px;
+  }
+
+  .stage-name {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 24px;
+  }
+
+  .pet-image {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto 24px;
+  }
+
+  .pet-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .health-badge {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+
+  .health-ok {
+    background: #E2F5E8;
+    color: #2E7D4F;
+  }
+
+  .health-sick {
+    background: #FFF3D6;
+    color: #B8860B;
+  }
+
+  .health-very-sick {
+    background: #FDE4E1;
+    color: #C0392B;
+  }
+
+  .progress-track {
+    background: #F0F0F0;
+    border-radius: 999px;
+    height: 28px;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 999px;
+    transition: width 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+
+  .progress-fill span {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .progress-label {
+    font-size: 18px;
+    color: #777;
+  }
+
+  .pizza-banner {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #C0392B;
+    background: #FDE4E1;
+    border-radius: 16px;
+    padding: 14px;
+  }
+
+  .footer-note {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #BBB;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="board">
+
+  <div class="card kostya">
+    <div class="name">Костя</div>
+    <div class="stage-name" id="kostya-stage">Дракончик</div>
+    <div class="pet-image">
+      <img id="kostya-img" src="images/kostya_stage2_baby.svg" alt="Дракон Кости">
+    </div>
+    <div class="health-badge health-ok" id="kostya-health">Здоров</div>
+    <div class="progress-track">
+      <div class="progress-fill" id="kostya-progress" style="width: 40%;">
+        <span id="kostya-progress-text">40%</span>
+      </div>
+    </div>
+    <div class="progress-label" id="kostya-points">6 баллов · до следующей стадии: 4</div>
+  </div>
+
+  <div class="card vitya">
+    <div class="name">Витя</div>
+    <div class="stage-name" id="vitya-stage">Яйцо</div>
+    <div class="pet-image">
+      <img id="vitya-img" src="images/vitya_stage1_egg.svg" alt="Дракон Вити">
+    </div>
+    <div class="health-badge health-very-sick" id="vitya-health">Сильно болеет</div>
+    <div class="progress-track">
+      <div class="progress-fill" id="vitya-progress" style="width: 13%;">
+        <span id="vitya-progress-text">13%</span>
+      </div>
+    </div>
+    <div class="progress-label" id="vitya-points">2 балла · до следующей стадии: 3</div>
+  </div>
+
+  <div class="footer-note">Тестовая версия · данные пока заданы вручную в коде страницы</div>
+
+</div>
+
+</body>
+</html>
